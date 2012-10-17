@@ -18,3 +18,7 @@ Example Usage
 ````javascript
 console.log($('div').textHeight());
 ````
+
+License
+-------
+MIT
