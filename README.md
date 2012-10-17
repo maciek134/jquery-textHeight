@@ -12,7 +12,9 @@ Simply include the library after jQuery:
 
 Example Usage
 ------------
-
+````html
+<div>Some random text</div>
+````
 ````javascript
-console.log($('<div>somerandomtext</div>').textHeight());
+console.log($('div').textHeight());
 ````
