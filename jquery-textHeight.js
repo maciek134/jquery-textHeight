@@ -29,6 +29,7 @@
 		}
 
 		// and return the results
-		return (c.height - minY);​
+		return (c.height - minY);
+
 	}
 }(jQuery));
