@@ -10,7 +10,8 @@
 
 		var ctx = c.getContext('2d');
 		// get div's font from computed style and apply it to context
-		ctx.font = window.getComputedStyle(div).font;
+		var cstyle = window.getComputedStyle(div);
+		ctx.font = cstyle.fontSize + ' ' + cstyle.fontFamily;
 		// use color other than black because all pixels are 0 when black and transparent
 		ctx.fillStyle = '#bbb';
 		// draw the text near the bottom of the canvas
